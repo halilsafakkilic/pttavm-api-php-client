@@ -1,0 +1,12 @@
+{
+  "name": "halilsafakkilic/pttavm-api-client",
+  "description": "PHP API Client for PttAVM.",
+  "autoload": {
+    "psr-4": {
+      "PttAVM\\": "pttavm/"
+    }
+  },
+  "require-dev": {
+    "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+  }
+}
