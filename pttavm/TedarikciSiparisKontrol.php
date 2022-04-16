@@ -11,6 +11,36 @@ class TedarikciSiparisKontrol
     protected $Eposta = null;
 
     /**
+     * @var string $FarkliAdres
+     */
+    protected $FarkliAdres = null;
+
+    /**
+     * @var string $FaturaAdresi
+     */
+    protected $FaturaAdresi = null;
+
+    /**
+     * @var string $FaturaIlce
+     */
+    protected $FaturaIlce = null;
+
+    /**
+     * @var string $FaturaIli
+     */
+    protected $FaturaIli = null;
+
+    /**
+     * @var string $FaturaMusteriAdi
+     */
+    protected $FaturaMusteriAdi = null;
+
+    /**
+     * @var string $FaturaMusteriSoyadi
+     */
+    protected $FaturaMusteriSoyadi = null;
+
+    /**
      * @var string $FirmaUnvani
      */
     protected $FirmaUnvani = null;
@@ -39,6 +69,11 @@ class TedarikciSiparisKontrol
      * @var string $KargoIndirimi
      */
     protected $KargoIndirimi = null;
+
+    /**
+     * @var string $KargoKimden
+     */
+    protected $KargoKimden = null;
 
     /**
      * @var float $KargoTutari
@@ -197,6 +232,114 @@ class TedarikciSiparisKontrol
     /**
      * @return string
      */
+    public function getFarkliAdres()
+    {
+      return $this->FarkliAdres;
+    }
+
+    /**
+     * @param string $FarkliAdres
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setFarkliAdres($FarkliAdres)
+    {
+      $this->FarkliAdres = $FarkliAdres;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaAdresi()
+    {
+      return $this->FaturaAdresi;
+    }
+
+    /**
+     * @param string $FaturaAdresi
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setFaturaAdresi($FaturaAdresi)
+    {
+      $this->FaturaAdresi = $FaturaAdresi;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaIlce()
+    {
+      return $this->FaturaIlce;
+    }
+
+    /**
+     * @param string $FaturaIlce
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setFaturaIlce($FaturaIlce)
+    {
+      $this->FaturaIlce = $FaturaIlce;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaIli()
+    {
+      return $this->FaturaIli;
+    }
+
+    /**
+     * @param string $FaturaIli
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setFaturaIli($FaturaIli)
+    {
+      $this->FaturaIli = $FaturaIli;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaMusteriAdi()
+    {
+      return $this->FaturaMusteriAdi;
+    }
+
+    /**
+     * @param string $FaturaMusteriAdi
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setFaturaMusteriAdi($FaturaMusteriAdi)
+    {
+      $this->FaturaMusteriAdi = $FaturaMusteriAdi;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaMusteriSoyadi()
+    {
+      return $this->FaturaMusteriSoyadi;
+    }
+
+    /**
+     * @param string $FaturaMusteriSoyadi
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setFaturaMusteriSoyadi($FaturaMusteriSoyadi)
+    {
+      $this->FaturaMusteriSoyadi = $FaturaMusteriSoyadi;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
     public function getFirmaUnvani()
     {
       return $this->FirmaUnvani;
@@ -311,6 +454,24 @@ class TedarikciSiparisKontrol
     public function setKargoIndirimi($KargoIndirimi)
     {
       $this->KargoIndirimi = $KargoIndirimi;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getKargoKimden()
+    {
+      return $this->KargoKimden;
+    }
+
+    /**
+     * @param string $KargoKimden
+     * @return \PttAVM\TedarikciSiparisKontrol
+     */
+    public function setKargoKimden($KargoKimden)
+    {
+      $this->KargoKimden = $KargoKimden;
       return $this;
     }
 

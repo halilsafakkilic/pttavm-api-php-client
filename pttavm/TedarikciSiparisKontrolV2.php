@@ -11,6 +11,36 @@ class TedarikciSiparisKontrolV2
     protected $Eposta = null;
 
     /**
+     * @var string $FarkliAdres
+     */
+    protected $FarkliAdres = null;
+
+    /**
+     * @var string $FaturaAdresi
+     */
+    protected $FaturaAdresi = null;
+
+    /**
+     * @var string $FaturaIlce
+     */
+    protected $FaturaIlce = null;
+
+    /**
+     * @var string $FaturaIli
+     */
+    protected $FaturaIli = null;
+
+    /**
+     * @var string $FaturaMusteriAdi
+     */
+    protected $FaturaMusteriAdi = null;
+
+    /**
+     * @var string $FaturaMusteriSoyadi
+     */
+    protected $FaturaMusteriSoyadi = null;
+
+    /**
      * @var string $FirmaUnvani
      */
     protected $FirmaUnvani = null;
@@ -131,6 +161,114 @@ class TedarikciSiparisKontrolV2
     public function setEposta($Eposta)
     {
       $this->Eposta = $Eposta;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFarkliAdres()
+    {
+      return $this->FarkliAdres;
+    }
+
+    /**
+     * @param string $FarkliAdres
+     * @return \PttAVM\TedarikciSiparisKontrolV2
+     */
+    public function setFarkliAdres($FarkliAdres)
+    {
+      $this->FarkliAdres = $FarkliAdres;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaAdresi()
+    {
+      return $this->FaturaAdresi;
+    }
+
+    /**
+     * @param string $FaturaAdresi
+     * @return \PttAVM\TedarikciSiparisKontrolV2
+     */
+    public function setFaturaAdresi($FaturaAdresi)
+    {
+      $this->FaturaAdresi = $FaturaAdresi;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaIlce()
+    {
+      return $this->FaturaIlce;
+    }
+
+    /**
+     * @param string $FaturaIlce
+     * @return \PttAVM\TedarikciSiparisKontrolV2
+     */
+    public function setFaturaIlce($FaturaIlce)
+    {
+      $this->FaturaIlce = $FaturaIlce;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaIli()
+    {
+      return $this->FaturaIli;
+    }
+
+    /**
+     * @param string $FaturaIli
+     * @return \PttAVM\TedarikciSiparisKontrolV2
+     */
+    public function setFaturaIli($FaturaIli)
+    {
+      $this->FaturaIli = $FaturaIli;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaMusteriAdi()
+    {
+      return $this->FaturaMusteriAdi;
+    }
+
+    /**
+     * @param string $FaturaMusteriAdi
+     * @return \PttAVM\TedarikciSiparisKontrolV2
+     */
+    public function setFaturaMusteriAdi($FaturaMusteriAdi)
+    {
+      $this->FaturaMusteriAdi = $FaturaMusteriAdi;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFaturaMusteriSoyadi()
+    {
+      return $this->FaturaMusteriSoyadi;
+    }
+
+    /**
+     * @param string $FaturaMusteriSoyadi
+     * @return \PttAVM\TedarikciSiparisKontrolV2
+     */
+    public function setFaturaMusteriSoyadi($FaturaMusteriSoyadi)
+    {
+      $this->FaturaMusteriSoyadi = $FaturaMusteriSoyadi;
       return $this;
     }
 

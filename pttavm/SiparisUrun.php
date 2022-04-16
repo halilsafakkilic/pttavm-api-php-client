@@ -11,6 +11,11 @@ class SiparisUrun
     protected $GarantiVerenFirma = null;
 
     /**
+     * @var string $KargoKimden
+     */
+    protected $KargoKimden = null;
+
+    /**
      * @var float $KdvDahilToplamTutar
      */
     protected $KdvDahilToplamTutar = null;
@@ -86,6 +91,24 @@ class SiparisUrun
     public function setGarantiVerenFirma($GarantiVerenFirma)
     {
       $this->GarantiVerenFirma = $GarantiVerenFirma;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getKargoKimden()
+    {
+      return $this->KargoKimden;
+    }
+
+    /**
+     * @param string $KargoKimden
+     * @return \PttAVM\SiparisUrun
+     */
+    public function setKargoKimden($KargoKimden)
+    {
+      $this->KargoKimden = $KargoKimden;
       return $this;
     }
 
